@@ -32,7 +32,7 @@ def auth():
     # users_file = open('users.json')
     # users = json.load(users_file)
     # users_file.close()
-
+ 
     if login in users and users[login] == password:
         status_code = 200
         stats['success'] += 1
