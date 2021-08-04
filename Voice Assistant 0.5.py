@@ -15,8 +15,8 @@ with open('NEW_BIG_BOT_CONFIG.json', 'r') as f:
 
 class Assistant:
 
-    def init(self):
-        super(Assistant, self).init()
+    def __init__(self):
+        super(Assistant, self).__init__()
         self.engine = pyttsx3.init()
         self.r = sr.Recognizer()
 
