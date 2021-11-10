@@ -19,3 +19,4 @@ def hard_gen_pass(length=10):
 ilength = input("Сколько символов должно быть в пароле: ")
 result = hard_gen_pass(int(ilength))
 print(result)
+ 
