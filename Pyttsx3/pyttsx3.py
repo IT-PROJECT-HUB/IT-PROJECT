@@ -18,3 +18,4 @@ while program:
     if k == "пока":
         talk("До скорых встреч")
         program = False
+ 
