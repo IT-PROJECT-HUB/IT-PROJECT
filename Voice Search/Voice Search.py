@@ -37,4 +37,3 @@ def web_search(search):  # Создание функции для выполне
  
 while True:  # Запуск бесконечного цикла
     web_search(listen())  # Запуск функции web_search(search) и передача в неё в качестве параметра функцию listen()
- 
