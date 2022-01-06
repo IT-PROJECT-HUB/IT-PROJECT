@@ -44,6 +44,6 @@ def get_password_logic(login_generator, password_generator, query, password_limi
             if password is None:
                 break
 
-            if query(login. password):
+            if query(login, password):
                 print('SUCCESS', login, password)
                 break
