@@ -15,7 +15,10 @@ class Weather(QtWidgets.QMainWindow, weather_ui.Ui_MainWindow):
 
     def go(self):
         place = self.lineEdit.text()
-        self.weather(place)
+        try:
+            self.weather(place)
+        except:
+            self.label.setText("По запросу " + str(place) + " ничего не найдено.\n Возможно вы ввели неверно текст!")
 
     def weather(self, place):
         owm = OWM('YOUR API KEY')  # Ваш ключ с сайта open weather map
