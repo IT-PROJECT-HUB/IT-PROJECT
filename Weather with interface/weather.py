@@ -18,7 +18,7 @@ class Weather(QtWidgets.QMainWindow, weather_ui.Ui_MainWindow):
         self.weather(place)
 
     def weather(self, place):
-        owm = OWM('fd5321547e631b45b33d6d1cc673754f')  # Ваш ключ с сайта open weather map
+        owm = OWM('YOUR API KEY')  # Ваш ключ с сайта open weather map
         mgr = owm.weather_manager()  # Инициализация owm.weather_manager()
         observation = mgr.weather_at_place(place)
         # Инициализация mgr.weather_at_place() И передача в качестве параметра туда страну и город
