@@ -1,0 +1,6 @@
+path==16.3.0
+Pillow==9.0.1
+pyzbar==0.1.8
+qrcode==7.3.1
+pypng==0.0.21
+pyTelegramBotAPI==4.4.0
