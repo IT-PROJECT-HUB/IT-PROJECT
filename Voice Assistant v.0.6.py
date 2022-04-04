@@ -121,7 +121,6 @@ class Assistant(QtWidgets.QMainWindow, newinterface_ui.Ui_MainWindow, threading.
 
     def main(self):
         global work
-        work = True
 
         while work:
             try:
