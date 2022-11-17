@@ -15,7 +15,7 @@ for i in cursor.execute('SELECT * FROM users'):
     print(i)
 
 
-class Registration(QtWidgets.QMainWindow, interface.Ui_MainWindow):
+class Registration(QtWidgets.QMainWindow, reglog_ui.Ui_MainWindow):
     def __init__(self):
         super(Registration, self).__init__()
         self.setupUi(self)
