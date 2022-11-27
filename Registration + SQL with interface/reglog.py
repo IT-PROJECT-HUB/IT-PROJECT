@@ -54,7 +54,7 @@ class Registration(QtWidgets.QMainWindow, reglog_ui.Ui_MainWindow):
             self.label.setText('Такая записать уже имеется!')
 
 
-class Login(QtWidgets.QMainWindow, interface.Ui_MainWindow):
+class Login(QtWidgets.QMainWindow, reglog_ui.Ui_MainWindow):
     def __init__(self):
         super(Login, self).__init__()
         self.setupUi(self)
