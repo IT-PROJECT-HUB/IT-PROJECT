@@ -68,7 +68,6 @@ class Registration(QtWidgets.QMainWindow, reglog_ui.Ui_MainWindow):
         self.open_messenger()
         return
 
-
     def open_messenger(self):
         self.messenger = Messenger()
         self.messenger.show()
