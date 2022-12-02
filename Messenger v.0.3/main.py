@@ -6,6 +6,7 @@ import reglog_ui
 
 USER = ""
 
+
 class Registration(QtWidgets.QMainWindow, reglog_ui.Ui_MainWindow):
     def __init__(self):
         super(Registration, self).__init__()
