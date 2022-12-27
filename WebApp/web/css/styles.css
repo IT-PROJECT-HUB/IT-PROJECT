@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    white-space: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover{
+    background-color: #3e8e41;
+}
+
+.button:active {
+    background-color: #3e8341;
+    transform: translateY(2px);
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.input:focus {
+    border: 3px solid #555
+}
